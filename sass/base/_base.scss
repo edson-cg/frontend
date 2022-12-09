@@ -1,0 +1,37 @@
+$bp-xxlarge: 1980px;
+$bp-xlarge: 1440px;
+$bp-large: 1024px;
+$bp-medium: 48em;
+$bp-small: 21em;
+
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    /* background-color: rgb(224, 216, 207); */
+    @media only screen and (max-width: $bp-small){
+        font-size: 50%;
+    }
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul {
+    list-style: none;
+}
+
+img{
+    display: block;
+}

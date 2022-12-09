@@ -1,0 +1,70 @@
+.footer {
+    font-family: $font-poppin;
+    background-color: $color-bg-light;
+    &__contenedor {
+        &__contenedorSuperior {
+            display: flex;
+            width: 100%;
+            @media only screen and (max-width: $bp-large){
+                flex-direction: column;
+                text-align: center;
+            }
+            &__izquierda {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 12rem;
+                padding-left: 3.5%;
+                color: black;
+                font-size: 1.5rem;
+                @media only screen and (max-width: $bp-large){
+                    flex-direction: column;
+                    margin-top: 7rem;
+                    margin-bottom: 6rem;
+                    gap: 5rem;
+                    padding-right: 3.5%;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 1.3rem;
+                }
+                p {
+                    line-height: 2rem;
+                }
+            }
+            &__derecha {
+                width: 70%;
+                display: flex;
+                justify-content: flex-end;
+                padding-right: 3.5%;
+                @media only screen and (max-width: $bp-large){
+                    width: 100%;
+                    flex-direction: column;
+                    margin-top: 0;
+                    padding-left: 3.5%;
+                }
+                &__col {
+                    /* font-family: $font-Inter; */
+                    color: black;
+                    font-size: 1.5rem;
+                    @media only screen and (max-width: $bp-large){
+                        margin-bottom: 7rem;
+                    }
+                    &--img {
+                        width: 15rem;
+                        border-radius: 50%;
+                        @media only screen and (max-width: $bp-large){
+                            display: inline-block;
+                        }
+                    }
+                    p {
+                        width: 26rem;
+                        @media only screen and (max-width: $bp-large){
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

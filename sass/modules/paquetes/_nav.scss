@@ -1,0 +1,86 @@
+.headerpack {
+    width: 100%;
+    font-family: $font-poppin;
+    background-color: $color-base;
+    /* position: fixed; */
+    &__nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 3.5%;
+        background-color: $color-base;
+        left: 0;
+        right: 0;
+        position: fixed;
+        z-index: 2;
+        &.active {
+            background: linear-gradient(to bottom, $color-base, $color-bg-light);
+        }
+        &__boton {
+            display: none;
+            color: black;
+            font-size: 2.4rem;
+            border: 1.5px solid black;
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+            cursor: pointer;
+            transition: all .3s;
+            z-index: 3;
+            &:hover {
+                background-color: black;
+                color: $color-base;
+                transition: all .3s;
+            }
+            @media only screen and (max-width: $bp-large){
+                display: block;
+            }
+            @media only screen and (max-width: $bp-medium){
+                font-size: 1.2rem;
+            }
+        }
+        &--logo {
+            width: 8rem;
+            border-radius: 50%;
+            z-index: 3;
+            @media only screen and (max-width: $bp-medium){
+                width: 6rem;
+            }
+        }
+        &__ul {
+            display: flex;
+            @media only screen and (max-width: $bp-large){
+                position: fixed;
+                background: linear-gradient(to bottom, $color-base, $color-bg-light);
+                top: 0;
+                left: -100%;
+                width: 100%;
+                height: 100vh;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                transition: all .5s;
+                z-index: 2;
+                &.activarMenus {
+                    left: 0;
+                    transition: all .5s;
+                }
+            }
+            &__li {
+                &--link {
+                    color: black;
+                    font-family: $font-poppin;
+                    padding: 1rem 1.5rem;
+                    font-size: 1.6rem;
+                    font-weight: 500;
+                    border-bottom: .3rem solid transparent;
+                    transition: all .3s;
+                    &:hover {
+                        color: $color-base-dark;
+                        border-bottom: .3rem solid $color-base-dark;
+                        transition: all .3s;
+                    }
+                }
+            }
+        }
+    }
+}

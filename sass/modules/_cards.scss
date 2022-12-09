@@ -1,0 +1,194 @@
+.card {
+    background-color: $color-base;
+    font-family: $font-poppin;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 8rem 4rem 8rem 4rem;
+        @media only screen and (max-width: $bp-medium){
+            padding-top: 3rem;
+        }
+        &--h4 {
+            font-size: 5rem;
+            margin-bottom: 8rem;
+            color: $color-bg-red;
+            @media only screen and (max-width: $bp-large){
+                font-size: 4rem;
+                margin-bottom: 6rem;
+            }
+            @media only screen and (max-width: $bp-medium){
+                font-size: 3rem;
+                margin-bottom: 4rem;
+            }
+        }
+        &__contInf {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 5rem;
+            &__inf {
+                position: relative;
+                /* width: calc(100% / 4 - 4rem / 3); */
+                width: 45rem;
+                height: 35rem;
+                @media only screen and (max-width: $bp-xxlarge){
+                    width: 37rem;
+                    height: 27rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    width: 32rem;
+                    height: 25rem;
+                }
+                @media only screen and (max-width: $bp-small){
+                    width: 28rem;
+                    height: 21rem;
+                }
+                /* margin-bottom: 5%; */
+                &__front {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1rem;
+                    backface-visibility: hidden;
+                    overflow: hidden;
+                    transition: .5s;
+                    transform: perspective(600px) rotateY(0deg);
+                    box-shadow: 0 .5rem 1rem black;
+                    &--img {
+                        position: absolute;
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                    &--h4 {
+                        position: absolute;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        font-size: 2rem;
+                        top: 0;
+                        width: 100%;
+                        height: 7rem;
+                        line-height: 3rem;
+                        color: white;
+                        background-color: rgba(0, 0, 0, .4);
+                        text-align: center;
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 1.9rem;
+                        }
+                        @media only screen and (max-width: $bp-large){
+                            font-size: 1.7rem;
+                        }
+                        @media only screen and (max-width: $bp-medium){
+                            font-size: 1.5rem;
+                        }
+                        @media only screen and (max-width: $bp-small){
+                            font-size: 1.3rem;
+                        }
+                    }
+                    &--h5 {
+                        position: absolute;
+                        font-size: 2rem;
+                        width: 100%;
+                        bottom: 0;
+                        height: 4.5rem;
+                        line-height: 45px;
+                        color: white;
+                        background: rgba(0, 0, 0, .4);
+                        text-align: center;
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 1.9rem;
+                        }
+                        @media only screen and (max-width: $bp-large){
+                            font-size: 1.7rem;
+                        }
+                        @media only screen and (max-width: $bp-medium){
+                            font-size: 1.5rem;
+                        }
+                        @media only screen and (max-width: $bp-small){
+                            font-size: 1.3rem;
+                        }
+                    }
+                }
+                &__back {
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1rem;
+                    backface-visibility: hidden;
+                    overflow: hidden;
+                    transition: .5s;
+                    box-shadow: 0 .5rem 1rem black;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    transform: perspective(600px) rotateY(180deg);
+                    background-color: darkred;
+                    padding: 1.5rem;
+                    color: white;
+                    text-align: center;
+                    &--h4 {
+                        font-size: 2.5rem;
+                        /* margin-top: 1rem; */
+                        /* letter-spacing: 1px; */
+                        @media only screen and (max-width: $bp-xxlarge){
+                            font-size: 2.3rem;
+                            /* letter-spacing: 1px; */
+                        }
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 2.1rem;
+                            /* letter-spacing: 1px; */
+                        }
+                        @media only screen and (max-width: $bp-medium){
+                            font-size: 2rem;
+                        }
+                        @media only screen and (max-width: $bp-small){
+                            font-size: 1.5rem;
+                            /* letter-spacing: 1px; */
+                        }
+                    }
+                    &--p {
+                        font-size: 1.5rem;
+                        letter-spacing: 2px;
+                        @media only screen and (max-width: $bp-xxlarge){
+                            font-size: 1.3rem;
+                            letter-spacing: 1px;
+                        }
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 1.2rem;
+                            /* letter-spacing: 1px; */
+                        }
+                        @media only screen and (max-width: $bp-medium){
+                            font-size: 1.1rem;
+                        }
+                        @media only screen and (max-width: $bp-small){
+                            font-size: .7rem;
+                            /* letter-spacing: 1px; */
+                        }
+                    }
+                    &__cont {
+                        border-top: solid 1px white;
+                        height: 50px;
+                        line-height: 50px;
+                        &--link {
+                            font-size: 2rem;
+                            color: white;
+                            @media only screen and (max-width: $bp-medium){
+                                font-size: 1.6rem;
+                            }
+                        }
+                    }
+                }
+                &:hover {
+                    .card__container__contInf__inf__front {
+                        transform: perspective(600px) rotateY(180deg);
+                    }
+                    .card__container__contInf__inf__back {
+                        transform: perspective(600px) rotateY(360deg);
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+/* Importación de estilos base */
+@import "./base/base";
+
+/* Importación de estilos variables */
+@import "./variables/variables";
+
+/* Importación de estilos --> Landing Page */
+@import "./modules/header";
+@import "./modules/viaje";
+@import "./modules/marcas";
+@import "./modules/cards";
+@import "./modules/footer";
+@import "./modules/footerInferior";
+
+/* Importación de estilos --> Paquetes de Servicios */
+@import "./modules/paquetes/nav";
+@import "./modules/paquetes/body";
+@import "./modules/paquetes/targ";
+
+/* Importación de estilos --> Explorar Arequipa */
+@import "./modules/explorar/explorar";
+
+/* Importación de estilos --> Remanentes para aplicar Carousel */
+@import "./modules/remanentes/remanenteViaje";

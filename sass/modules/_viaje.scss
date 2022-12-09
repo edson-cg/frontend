@@ -1,0 +1,53 @@
+.viaje {
+    /* border: solid red; */
+    background-color: $color-bg-light;
+    width: 100%;
+    font-family: $font-poppin;
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 8rem 3% 8rem 3%;
+        &--h3 {
+            font-size: 4rem;
+        }
+        &--p {
+            text-align: center;
+            font-size: 2rem;
+            padding: 0 20% 0 20%;
+        }
+        &__articulos {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            gap: 2rem;
+            padding-top: 6%;
+            &__servicios {
+                /* border: 3px solid black; */
+                background: linear-gradient(to top, $color-base, $color-bg-light);
+                border-radius: 2rem;
+                box-shadow: -0.01rem 1rem 1rem;
+                padding: 5%;
+                &--i {
+                    font-size: 3rem;
+                    background-color: $color-bg-red;
+                    color: black;
+                    padding: 2rem;
+                    border-radius: 1rem;
+                }
+                &--h4 {
+                    font-size: 3rem;
+                }
+                &--p {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: $bp-large){
+        display: none;
+    }
+    &__containerDos {
+        padding-bottom: 15rem;
+    }
+}

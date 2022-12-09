@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+
+  <link rel="stylesheet" href="./css/main.css">
+  <title>TraveLoad</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header__nav contenedor-max centrar-bloque">
+      <nav class="header__nav__container contenedor-max centrar-bloque">
+        <img class="header__nav__container--logo" src="./img//traveload.png" alt="">
+        <ul class="header__nav__container__ul">
+          <li class="header__nav__container__ul__li"><a href="#inicio" class="header__nav__container__ul__li--link">Inicio</a></li>
+          <li class="header__nav__container__ul__li"><a href="./html/arequipa/arequipa.html" class="header__nav__container__ul__li--link">Arequipa</a></li>
+          <li class="header__nav__container__ul__li"><a href="./html/viaje/viaje.html" class="header__nav__container__ul__li--link">Viaje</a></li>
+          <li class="header__nav__container__ul__li"><a href="./html/tours/tour.html" class="header__nav__container__ul__li--link">Paquetes</a></li>
+          <li class="header__nav__container__ul__li"><a href="#contactos" class="header__nav__container__ul__li--link">Contacto</a></li>
+        </ul>
+        <div class="header__nav__container__boton">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </nav>
+      <div class="header__nav__container2 contenedor-max" id="inicio">
+        <h1 class="header__nav__container2--h1 pb-3">BIENVENIDOS A AREQUIPA</h1>
+        <h2 class="header__nav__container2--h2 pb-3">Explora esta hermosa ciudad</h2>
+        <p class="header__nav__container2--p">Ven a la ciudad de Arequipa y disfruta de una de las mejores experiencias de turismo, en sus maravillosas dos regiones geograficas naturales que te sorprenderan.</p>
+        <a class="header__nav__container2--a" href="./html/arequipa/arequipa.html">
+          <button class="btn btn-base mt-3">Explorar <i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+        <a href="#paquetess">
+          <button id="viajes" class="btn btn-base mt-3">Paquetes <i class="fa-solid fa-arrow-right"></i></button>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <section class="viaje">
+    <div class="viaje__container contenedor-medium centrar-bloque">
+      <h3 class="viaje__container--h3 pb-3">Modos de viaje a Arequipa</h3>
+      <p class="viaje__container--p">Arequipa es una increible ciudad, con un montón de lugares para conocer: Una variedad de ecosistemas impresionantes, paisajes desbordantes, hermosos pueblos cargados de historia, cultura, tradiciones, playas, flora, fauna... y por supuesto, su deliciosa y afamada gastronomía. Llega y descubre esta maravillosa ciudad con los diferentes modos de viaje que te ofrecen estas <b>Empresas recomendadas</b>.
+      <div class="viaje__container__articulos">
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.peru.travel/es/masperu/recorre-arequipa-puno-y-cusco-en-el-primer-tren-de-lujo-de-sudamerica">
+            <i class="fa-solid fa-train fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>  
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Perú Travel<br>(Tren)</h4>
+          <p class="viaje__container__articulos__servicios--p">Viaja en Tren. Una experiencia hermosa con los mejores paisajes naturales que te brinda este modo de viaje.</p>
+        </article>
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.kayak.com.pe/vuelos/Peru-PE0/Arequipa-Rodriguez-Ballon-AQP">
+            <i class="fa-solid fa-plane fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Kayak<br>(Avión)</h4>
+          <p class="viaje__container__articulos__servicios--p">Viaja en avión. Te brinda la mejor comodidad y rapidez para llegar a tus destinos sin ningun inconveniente.</p>
+        </article>
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.redbus.pe/ciudad/arequipa-pasajes-de-bus">
+            <i class="fa-solid fa-bus fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Red Bus<br>(Bus)</h4>
+          <p class="viaje__container__articulos__servicios--p">Viaja en Bus. Descubre nuevas e increibles experiencias con las más populares y diferentes rutas del Perú.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="viaje2">
+    <div class="viaje2__container contenedor-medium centrar-bloque">
+      <h3 class="viaje2__container--h3 pb-3">Modos de viaje a Arequipa</h3>
+      <p class="viaje2__container--p">Arequipa es una increible ciudad, con un montón de lugares para conocer: Una variedad de ecosistemas impresionantes, paisajes desbordantes, hermosos pueblos cargados de historia, cultura, tradiciones, playas, flora, fauna... y por supuesto, su deliciosa y afamada gastronomía. Llega y descubre esta maravillosa ciudad con los diferentes modos de viaje que te ofrecen estas <b>Empresas recomendadas</b>.</p>
+      <div class="viaje2__container__slider swiper mySwiper">
+        <div class="viaje2__container__slider__articulos swiper-wrapper">
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.peru.travel/es/masperu/recorre-arequipa-puno-y-cusco-en-el-primer-tren-de-lujo-de-sudamerica">
+              <i class="fa-solid fa-train fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Perú Travel<br>(tren)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Viaja en Tren. Una experiencia hermosa con los mejores paisajes naturales que te brinda este modo de viaje.</p>
+          </article>
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.kayak.com.pe/vuelos/Peru-PE0/Arequipa-Rodriguez-Ballon-AQP">
+              <i class="fa-solid fa-plane fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Kayak<br>(Avión)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Viaja en avión. Te brinda la mejor comodidad y rapidez para llegar a tus destinos sin ningun inconveniente.</p>
+          </article>
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.redbus.pe/ciudad/arequipa-pasajes-de-bus">
+              <i class="fa-solid fa-bus fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Red Bus<br>(Bus)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Viaja en Bus. Descubre nuevas e increibles experiencias con las más populares y diferentes rutas del Perú.</p>
+          </article>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="viaje">
+    <div class="viaje__container viaje__containerDos contenedor-medium centrar-bloque">
+      <h3 class="viaje__container--h3 pb-3">Elige tu lugar de descanso</h3>
+      <p class="viaje__container--p">Si vas a Arequipa, te recomendamos que evalues previamente tu visita, para que elijas bien donde alojarse y donde degustar la comida, esto será una gran ayuda para tu viaje. Y para eso estamos nosotros aquí, que hemos preparado estos enlaces recomendados para ayudarte a encontrar el alojamiento y restaurante perfecto en Arequipa</p>
+      <div class="viaje__container__articulos">
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.tripadvisor.com.pe/VacationRentals-g294313-Reviews-Arequipa_Arequipa_Region-Vacation_Rentals.html">
+            <i class="fa-solid fa-house-chimney fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Tripadvisor<br>(Departamento)</h4>
+          <p class="viaje__container__articulos__servicios--p">Ten una estadía mas larga en un departamento bonito. Conoce los diferentes departamentos en alquiler para disfrutar de una comoda vivencia.</p>
+        </article>
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.tripadvisor.com.pe/Hotels-g294313-Arequipa_Arequipa_Region-Hotels.html">
+            <i class="fa-solid fa-bed fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Tripadvisor<br>(Hotel)</h4>
+          <p class="viaje__container__articulos__servicios--p">Elije el Hotel que mejor se adapte a tí, en precio y ubicación, para que disfrutes de unas comodas vacaciones en esta bella Ciudad.</p>
+        </article>
+        <article class="viaje__container__articulos__servicios">
+          <a target="_blank" href="https://www.tripadvisor.com.pe/Restaurants-g294313-Arequipa_Arequipa_Region.html">
+            <i class="fa-solid fa-utensils fa-3x pb-1 viaje__container__articulos__servicios--i"></i>
+          </a>
+          <h4 class="viaje__container__articulos__servicios--h4 pb-3">Tripadvisor<br>(Restaurante)</h4>
+          <p class="viaje__container__articulos__servicios--p">Visita los diferentes restaurantes de Arequipa y deleitate con su increible sabor y reconocida gastronomía en sudamerica y el mundo.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="viaje2">
+    <div class="viaje2__container viaje2__containerDos contenedor-medium centrar-bloque">
+      <h3 class="viaje2__container--h3 pb-3">Elige tu lugar de descanso</h3>
+      <p class="viaje2__container--p">Si vas a Arequipa, te recomendamos que evalues previamente tu visita, para que elijas bien donde alojarse y donde degustar la comida, esto será una gran ayuda para tu viaje. Y para eso estamos nosotros aquí, que hemos preparado estos enlaces recomendados para ayudarte a encontrar el alojamiento y restaurante perfecto en Arequipa.</p>
+      <div class="viaje2__container__slider swiper mySwiper">
+        <div class="viaje2__container__slider__articulos swiper-wrapper">
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.tripadvisor.com.pe/VacationRentals-g294313-Reviews-Arequipa_Arequipa_Region-Vacation_Rentals.html">
+              <i class="fa-solid fa-house-chimney fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Tripadvisor<br>(Departamento)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Ten una estadía mas larga en un departamento bonito. Conoce los diferentes departamentos en alquiler para disfrutar de una comoda vivencia.</p>
+          </article>
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.tripadvisor.com.pe/Hotels-g294313-Arequipa_Arequipa_Region-Hotels.html">
+              <i class="fa-solid fa-bed fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Tripadvisor<br>(Hotel)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Elije el Hotel que mejor se adapte a tí, en precio y ubicación, para que disfrutes de unas comodas vacaciones en esta bella Ciudad.</p>
+          </article>
+          <article class="viaje2__container__slider__articulos__servicios swiper-slide">
+            <a target="_blank" href="https://www.tripadvisor.com.pe/Restaurants-g294313-Arequipa_Arequipa_Region.html">
+              <i class="fa-solid fa-utensils fa-3x pb-1 viaje2__container__slider__articulos__servicios--i"></i>
+            </a>
+            <h4 class="viaje2__container__slider__articulos__servicios--h4 pb-3 pt-3">Tripadvisor<br>(Restaurante)</h4>
+            <p class="viaje2__container__slider__articulos__servicios--p">Visita los diferentes restaurantes de Arequipa y deleitate con su increible sabor y reconocida gastronomía en sudamerica y el mundo.</p>
+          </article>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="marcas">
+      <div class="marcas__container contenedor-medium centrar-bloque">
+          <div class="marcas__container__movimiento">
+              <img class="marcas__container__movimiento--marca" src="./img/peru.jpg" alt="Marca moviendose">
+              <img class="marcas__container__movimiento--marca" src="./img/kayak.png" alt="Marca moviendose">
+              <img class="marcas__container__movimiento--marca" src="./img/traveload.png" alt="Marca moviendose">
+              <img class="marcas__container__movimiento--marca" src="./img/redBus.png" alt="Marca moviendose">
+              <img class="marcas__container__movimiento--marca" src="./img/tripadvisor.jpg" alt="Marca moviendose">
+          </div>
+      </div>
+  </section>
+
+  <section class="card" id="paquetess">
+    <div class="card__container contenedor-medium centrar-bloque">
+      <h4 class="card__container--h4">Paquetes Turisticos<br>Arequipa</h4>
+      <div class="card__container__contInf">
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/campiña-tours.jfif" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">CAMPIÑA TOURS</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/45.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Campiña tours</h4>
+            <p class="card__container__contInf__inf__back--p">Tour Campiña en Bus Panoramico" conocido también como Mirabus , en éste punto nos dará la bienvenida nuestra Guía que nos dará explicaciones detalladas de todos los puntos de nuestro itinerario.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page1.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/ruta-del-sillar.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">RUTA DEL SILLAR</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/35.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Ruta del sillar</h4>
+            <p class="card__container__contInf__inf__back--p">La ruta turística, se realiza en el distrito de Cerro Colorado, a menos de una hora de la ciudad de Arequipa. Los visitantes podrán ver de cerca cómo se trabaja el sillar.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page2.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/ascenso-al-volcan-misti-2dias-y-1noche.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">ASCENSO AL VOLCAN MISTI - 2 DIAS Y 1 NOCHE</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/320.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Ascenso al volcan Misti (2 días y 1 noche)</h4>
+            <p class="card__container__contInf__inf__back--p">Volcán Misti, es el volcán más famoso del Perú. Su forma es piramidal, tiene dos cráteres y significa mucho para los Arequipeños, pues es considerado el protector de la ciudad desde la época de los Incas.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page3.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/rafting-en-el-rio-chili.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">RAFTING EN EL RIO CHILI</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/70.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Rafting en el rio Chili</h4>
+            <p class="card__container__contInf__inf__back--p">Una excelente manera de realizar deporte de aventura en Arequipa, es el rafting en el Rio Chili, este servicio te brinda un equipo completo en medidas de seguridad y te permite conocer uno de los encantos que Arequipa te ofrece, anímate por visitar Arequipa.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page4.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/colca-full-day-1.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">COLCA FULL DAY</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/85.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Colca full day</h4>
+            <p class="card__container__contInf__inf__back--p">El Cañón del Colca se encuentra en el valle de un río del sur de Perú y es famoso por ser uno de los más profundos del mundo. Es un destino famoso para el senderismo.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page5.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/promocion-arequipa-colca-3dias-4noches.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">PROMOCION AREQUIPA - COLCA 4 DIAS Y 3 NOCHES</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/420.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Promocion Arequipa - Colca 4 días y 3 noches</h4>
+            <p class="card__container__contInf__inf__back--p">El valle del Colca está ubicado en la provincia de Caylloma. Este cañón tiene una profundidad de 4160 m, y es el cuarto cañón más profundo del planeta.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page6.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/trekking-al-cañon-del-colca-por-2dias-1noche.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">TREKKING AL CAÑON DEL COLCA - 2 DIAS Y 1 NOCHE</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/220.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Trekking al cañon del Colca - 2 días y 1 noche</h4>
+            <p class="card__container__contInf__inf__back--p">Una experiencia increible en caminata visitando los diferentes puntos estrategicos del Colca para maravillarse con su naturalez en flora y fauna.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page7.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/colca-2dias-1noche-tours-convencional.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">TOURS CONVENCIONAL COLCA - 2 DIAS Y 1 NOCHE</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/160.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Tour convenciona Colca - 2 días y 1 noche</h4>
+            <p class="card__container__contInf__inf__back--p">El Valle del Colca ofrece una deslumbrante naturaleza, una cultura viva, y deliciosa gastronomía así como relajantes aguas termales.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page8.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/ascenso-al-volcan-chachani-2dias-1noche.jfif" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">ASCENSO AL VOLCAN CHACHANI - 2 DIAS Y 1 NOCHE</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/370.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Ascenso al volcan Chachani - 2 días y 1 noche</h4>
+            <p class="card__container__contInf__inf__back--p">Volcán Chachani, Este volcán es famoso en Arequipa y en el Perú por ser considerado uno de los protectores de la ciudad Arequipa y porque se extrae el “Sillar”.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page9.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/descenso-en-bicicleta-chachani-misti-pichupichu.jfif" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">DESCENSO EN BICICLETA - CHACHANI - MISTI - PICHU PICHU</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/150.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Descenso en bicicleta - Chachani - Misti - Pichu pichu</h4>
+            <p class="card__container__contInf__inf__back--p">Volcán Chachani, Este volcán es famoso en Arequipa y en el Perú por ser considerado uno de los protectores de la ciudad Arequipa y porque se extrae el “Sillar”.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page10.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/oferta-campiña-tours-bus-panoramico-colca-full-day.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">OFERTA CAMPIÑA TOURS - BUS PANORAMICO - COLCA FULL DAY</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/105.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Oferta Campiña tours - bus panorámico - Colca full day</h4>
+            <p class="card__container__contInf__inf__back--p">Verás los atractivos del cañón del Colca sin tener que estar pendiente de quién va detrás tuyo ya que es un servicio exclusivamente turístico, optimizas tu tiempo y tu dinero !!</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page11.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/cabalgatas-a-paucarpata-1hr.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">CABALGATAS A PAUCARPATA - 1 HORA</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/95.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Cabalgatas a Paucarpata - 1 hora</h4>
+            <p class="card__container__contInf__inf__back--p">Es un servicio privado en el pueblo tradicional de Paucarpata, visitaremos los andenes y la campiña de Paucarpata, entre otros lugares hermosos.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page12.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img//city-tours-peatonal.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">CITY TOURS PEATONAL</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/70.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">City tours peatonal</h4>
+            <p class="card__container__contInf__inf__back--p">Recorra con nuestro equipo experimentado los históricos monumentos y recintos, conociendo todos los lugares representativos del centro de Arequipa.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page13.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/catarata-de-paccha.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">CATARATA DE PACCHA</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/85.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Catarata de Paccha</h4>
+            <p class="card__container__contInf__inf__back--p">La Catarata Paccha es un lugar increíble con una mágica e imponente caída de agua y una diversidad de flora y fauna que hacen más bello el lugar.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page14.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/cabalgatas-a-yumina-3hrs.jfif" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">CABALGATAS A YUMINA - 3 HORAS</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/165.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Cabalgatas a Yumina - 3 horas</h4>
+            <p class="card__container__contInf__inf__back--p">Es un servicio, privado en el pueblo tradicional de yumina, recorreremos caminos de herradura hacia los andenes de Paucarpata, subiremos al pueblo antiguo donde podremos observar la producción agrícola y tradicional yunta.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page15.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/full-day-catarata-de-pillones-y-bosque-de-piedras.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">FULL DAY - CATARATA DE PILLONES Y BOSQUE DE PIEDRA</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/80.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Full day - Catarata de Pillones y Bosque de Piedra</h4>
+            <p class="card__container__contInf__inf__back--p">Visita el Bosque de Piedras de Imata y Cataras de Pillones, donde presenciarás la acción de la naturaleza en las formaciones del paisaje.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page16.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/reserva-naciona-de-salinas-y-agua-blanca.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">RESERVA NACIONAL DE SALINAS Y AGUADA BLANCA</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/90.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Reserva nacional de Salinas y Aguada Blanca</h4>
+            <p class="card__container__contInf__inf__back--p">Se distingue por la presencia de los majestuosos volcanes Ubinas, Pichupichu, Misti y Chachani en la parte suroeste, y por los nevados Chuccura y Huarancante en el lado norte.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page17.html">Información</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="card__container__contInf__inf">
+          <div class="card__container__contInf__inf__front">
+            <img class="card__container__contInf__inf__front--img" src="./img/paquete-arequipa-a-5dias-y-4noches-tours-mas-hotel.jpg" alt="">
+            <h4 class="card__container__contInf__inf__front--h4">PAQUETE AREQUIPA TOURS - 5 DIAS Y 4 NOCHES + HOTEL</h4>
+            <h5 class="card__container__contInf__inf__front--h5">S/499.00</h5>
+          </div>
+          <div class="card__container__contInf__inf__back">
+            <h4 class="card__container__contInf__inf__back--h4">Paquete Arequipa tours - 5 días y 4 noches + hotel</h4>
+            <p class="card__container__contInf__inf__back--p">Tour completo en el que recorreras diferentes lugares de Arequipa, podras disfrutar de la ruta del sillar, Colca, Reserva nacional de salinas, tour libre y muchas mas actividades.</p>
+            <div class="card__container__contInf__inf__back__cont">
+              <a class="card__container__contInf__inf__back__cont--link" href="./html/paquetes/page18.html">Información</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer" id="contactos">
+    <div class="footer__contenedor contenedor-max centrar-bloque">
+        <div class="footer__contenedor__contenedorSuperior">
+            <div class="footer__contenedor__contenedorSuperior__izquierda mt-8 mb-8">
+                <div class="footer__contenedor__contenedorSuperior__izquierda__col1">
+                    <h4 class="mb-2">Dirección</h4>
+                    <p>Calle</p>
+                    <p>Alvarez Thomas 107</p>
+                    <p>Of-01</p>
+                    <p>Cercado Arequipa</p>
+                </div>
+                <div class="footer__contenedor__contenedorSuperior__izquierda__col2">
+                    <h4 class="mb-2">Centro de Atención</h4>
+                    <p>Telefono</p>
+                    <p class="mb-2">+51-940187145</p>
+                    <p>E-mail</p>
+                    <p>traveload@gmail.com</p>
+                </div>
+                <div class="footer__contenedor__contenedorSuperior__izquierda__col2">
+                  <h4 class="mb-2">Redes Sociales</h4>
+                  <p class="mb-1">Redes</p>
+                  <p class="mb-2">
+                    <i class="icon fa-brands fa-facebook"></i>
+                    <i class="icon fa-brands fa-twitter ml-1 mr-1"></i>
+                    <i class="icon fa-brands fa-instagram"></i>
+                  </p>
+                  <p class="mb-1">Videos</p>
+                  <p>
+                    <i class="icon fa-brands fa-youtube mr-1"></i>
+                    <i class="icon fa-brands fa-tiktok"></i>
+                  </p>
+              </div>
+            </div>
+    
+            <div class="footer__contenedor__contenedorSuperior__derecha mt-8">
+                <div class="footer__contenedor__contenedorSuperior__derecha__col">
+                    <img class="footer__contenedor__contenedorSuperior__derecha__col--img" src="./img//traveload.png" alt="Logo">
+                    <p class="pt-2">Agencia de turismo pensada por viajeros para viajeros</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </footer>
+
+    <footer class="footerInf">
+      <div class="footerInf__contenedorInferior contenedor-max centrar-bloque">
+          <div class="footerInf__contenedorInferior__izquierda">
+              <p class="mt-3 mb-3">© 2022 Traveload by Multileaf group | All Rights Reserved | Powered by <span>Shom</span></p>
+          </div>
+          <div class="footerInf__contenedorInferior__derecha">
+              <a href="#">
+                  <button class="footerInf__contenedorInferior__derecha__boton">
+                      <i class=" footerInf__contenedorInferior__derecha__boton--i fa-solid fa-chevron-up"></i>
+                  </button>
+              </a>
+          </div>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>

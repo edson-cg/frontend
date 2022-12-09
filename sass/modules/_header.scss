@@ -1,0 +1,195 @@
+.header {
+    width: 100%;
+    font-family: $font-poppin;
+    background-color: $color-base;
+    /* @media only screen and (max-width: $bp-xxlarge){
+        max-width: $bp-xxlarge;
+    } */
+    &__nav {
+        background-image: url(../../img/Arequipa-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-top: 8rem;
+        @media only screen and (max-width: $bp-medium){
+            margin-top: 6rem;
+        }
+        &__container{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 3.5%;
+            margin-top: -8rem;
+            position: fixed;
+            background-color: $color-base;
+            left: 0;
+            right: 0;
+            z-index: 2;
+            &.active {
+                background: linear-gradient(to bottom, $color-base, $color-bg-light);
+            }
+            @media only screen and (max-width: $bp-medium){
+                margin-top: -6rem;
+            }
+            &__boton {
+                display: none;
+                color: black;
+                font-size: 2.4rem;
+                border: 1.5px solid black;
+                padding: .5rem 1rem;
+                border-radius: .5rem;
+                cursor: pointer;
+                transition: all .3s;
+                z-index: 3;
+                &:hover {
+                    background-color: black;
+                    color: $color-base;
+                    transition: all .3s;
+                }
+                @media only screen and (max-width: $bp-large){
+                    display: block;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 1.2rem;
+                }
+            }
+            &--logo {
+                width: 8rem;
+                border-radius: 50%;
+                z-index: 3;
+                @media only screen and (max-width: $bp-medium){
+                    width: 6rem;
+                }
+            }
+            &__ul {
+                display: flex;
+                @media only screen and (max-width: $bp-large){
+                    position: fixed;
+                    background: linear-gradient(to bottom, $color-base, $color-bg-light);
+                    top: 0;
+                    left: -100%;
+                    width: 100%;
+                    height: 100vh;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    transition: all .5s;
+                    z-index: 2;
+                    &.activarMenu {
+                        left: 0;
+                        transition: all .5s;
+                    }
+                }
+                &__li {
+                    &--link {
+                        color: black;
+                        font-family: $font-poppin;
+                        padding: 1rem 1.5rem;
+                        font-size: 1.6rem;
+                        font-weight: 500;
+                        border-bottom: .3rem solid transparent;
+                        transition: all .3s;
+                        &:hover {
+                            color: $color-base-dark;
+                            border-bottom: .3rem solid $color-base-dark;
+                            transition: all .3s;
+                        }
+                    }
+                }
+            }
+        }
+        &__container2 {
+            width: 90%;
+            padding: 10.5% 5% 10.5% 5%;
+            color: white;
+            opacity: 0;
+            animation: humo 1s linear forwards;
+            @keyframes humo {
+                0%{
+                    transform: rotate(0deg) translateY(-100px);
+                    opacity: 0;
+                    filter: blur(20px);
+                }
+                100%{
+                    transform: rotate(0deg) translateY(0px);
+                    opacity: 1;
+                    filter: blur(0);
+                }
+            }
+            @media only screen and (max-width: $bp-medium){
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            &--h1 {
+                font-size: 11rem;
+                font-weight: 700;
+                @media only screen and (max-width: $bp-xxlarge){
+                    font-size: 9rem;
+                }
+                @media only screen and (max-width: $bp-xlarge){
+                    font-size: 8rem;
+                }
+                @media only screen and (max-width: $bp-large){
+                    font-size: 7rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 5rem;
+                    text-align: center;
+                }
+                @media only screen and (max-width: $bp-small){
+                    font-size: 3rem;
+                    text-align: center;
+                }
+            }
+            &--h2 {
+                font-size: 8rem;
+                font-weight: 500;
+                @media only screen and (max-width: $bp-xxlarge){
+                    font-size: 7rem;
+                }
+                @media only screen and (max-width: $bp-xlarge){
+                    font-size: 6rem;
+                }
+                @media only screen and (max-width: $bp-large){
+                    font-size: 4rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 3.5rem;
+                    text-align: center;
+                }
+                @media only screen and (max-width: $bp-small){
+                    font-size: 2rem;
+                    text-align: center;
+                }
+            }
+            &--p {
+                font-size: 3rem;
+                font-weight: 300;
+                @media only screen and (max-width: $bp-xlarge){
+                    font-size: 2.5rem;
+                }
+                @media only screen and (max-width: $bp-large){
+                    font-size: 2rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    font-size: 1.5rem;
+                    text-align: center;
+                }
+                @media only screen and (max-width: $bp-small){
+                    font-size: 1rem;
+                    text-align: center;
+                }
+            }
+            &--a {
+                margin-right: 3rem;
+                @media only screen and (max-width: $bp-medium){
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+}
