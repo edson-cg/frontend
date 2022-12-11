@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="../../css/main.css">
 
     <title>Document</title>
@@ -34,18 +37,18 @@
     <section class="sectionPack">
         <div class="sectionPack__container contenedor-medium centrar-bloque">
             <div class="sectionPack__container__titulo">
-                <h1 class="sectionPack__container__titulo--h1">CAMPIÑA TOURS</h1>
+                <h1 class="sectionPack__container__titulo--h1" data-aos="fade-down" data-aos-delay="100">CAMPIÑA TOURS</h1>
             </div>
             <div class="sectionPack__container__info">
                 <article class="sectionPack__container__info__article pack">
                     <div class="sectionPack__container__info__article__cont">
-                        <img class="sectionPack__container__info__article__cont--img" src="../../img/campiña-tours.jfif" alt="">
+                        <img class="sectionPack__container__info__article__cont--img" data-aos="fade-right" data-aos-delay="200" src="../../img/campiña-tours.jfif" alt="">
                     </div>
                     <div class="sectionPack__container__info__article__box">
-                        <h2 class="sectionPack__container__info__article__box--h2">Descripción</h2>
+                        <h2 class="sectionPack__container__info__article__box--h2" data-aos="fade-right" data-aos-delay="200">Descripción</h2>
                     </div>
-                    <h3 class="sectionPack__container__info__article--h3">CAMPIÑA TOURS</h3>
-                    <p class="sectionPack__container__info__article--p">
+                    <h3 class="sectionPack__container__info__article--h3" data-aos="fade-up" data-aos-delay="100">CAMPIÑA TOURS</h3>
+                    <p class="sectionPack__container__info__article--p" data-aos="fade-up" data-aos-delay="200">
                         Tour Campiña en Bus Panoramico" conocido también como Mirabus , en éste punto nos dará la bienvenida nuestra Guía que nos dará explicaciones detalladas de todos los puntos de nuestro itinerario.<br>
                         Disfrutaremos sentados en el segundo piso del mirabus para tener una mejor vista de todos los atractivos turísticos de la ciudad de Arequipa, podremos bajarnos del bus en los siguientes puntos:<br>
                         Primer punto será el Distrito de Yanahuara donde podremos tomarnos fotos en los famosos Portales de Yanahuara con el fondo del volcán Misti , también veremos la Iglesia de este tradicional distrito. En éste lugar venden el tradicional queso helado, que es un postre típico de Arequipa, su sabor único es de degustación obligatoria.<br>
@@ -64,15 +67,15 @@
                     </p>
                 </article>
                 <aside class="sectionPack__container__info__aside">
-                    <div class="sectionPack__container__info__aside__precio">
+                    <div class="sectionPack__container__info__aside__precio" data-aos="fade-up" data-aos-delay="100">
                         <h4 class="sectionPack__container__info__aside__precio--h4">Precio</h4>
                         <p class="sectionPack__container__info__aside__precio--p">S/45.00</p>
                     </div>
-                    <div class="sectionPack__container__info__aside__pago">
+                    <div class="sectionPack__container__info__aside__pago" data-aos="fade-up" data-aos-delay="200">
                         <img class="sectionPack__container__info__aside__pago--img" src="../../img/visa.png" alt="">
                         <button class="sectionPack__container__info__aside__pago--boton btn btn-base">Pagar con Visa</button>
                     </div>
-                    <div class="sectionPack__container__info__aside__contacto">
+                    <div class="sectionPack__container__info__aside__contacto" data-aos="fade-up" data-aos-delay="300">
                         <form class="sectionPack__container__info__aside__contacto__form" action="">
                             <h4>Contáctenos</h4>
                             <p>Nombre</p>
@@ -94,7 +97,7 @@
     </section>
 
     <section class="otros">
-        <div class="otros__container">
+        <div class="otros__container" data-aos="fade-up" data-aos-delay="100">
             <h4 class="otros__container--h4">Otros Tours</h4>
             <div class="otros__container__targ">
                 <div class="otros__container__targ__inf">
@@ -146,7 +149,7 @@
     </section>
 
     <footer class="footer" id="contactos">
-        <div class="footer__contenedor contenedor-max centrar-bloque">
+        <div class="footer__contenedor contenedor-max centrar-bloque" data-aos="fade-up">
             <div class="footer__contenedor__contenedorSuperior">
                 <div class="footer__contenedor__contenedorSuperior__izquierda mt-8 mb-8">
                     <div class="footer__contenedor__contenedorSuperior__izquierda__col1">
@@ -206,5 +209,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="../../js/paquetes.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

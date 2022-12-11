@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="../../css/main.css">
     <title>Document</title>
 </head>
@@ -33,11 +36,11 @@
     <section class="sectionHead contenedor-max centrar-bloque pb-3 pt-10" id="home">
         <aside class="sectionHead__aside">
             <section class="sectionHead__aside__col">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/yYEQ_V1QuvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <p class="sectionHead__aside__col--exp">15 años de experiencia
+                <iframe data-aos="fade-left" data-aos-delay="200" width="560" height="315" src="https://www.youtube.com/embed/yYEQ_V1QuvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p class="sectionHead__aside__col--exp" data-aos="fade-right">482 años desde su fundación
                 </p>
-                <h1 class="mt-2">CIUDAD BLANCA DE AREQUIPA</h1>
-                <p class="sectionHead__aside__col--descri mt-3">
+                <h1 class="mt-2" data-aos="fade-right" data-aos-delay="100">CIUDAD BLANCA DE AREQUIPA</h1>
+                <p class="sectionHead__aside__col--descri mt-3" data-aos="fade-right" data-aos-delay="200">
                     <b>Sobre Arequipa</b><br><br>
 
                     Conocida como la Ciudad Blanca, un destino que encanta por la belleza de sus blancas arquitecturas en piedra y entornos de volcanes nevados, donde se esconden impresionantes reservas naturales y mágicos caseríos rurales.<br><br>
@@ -62,13 +65,13 @@
                 </a>
             </section>
         </aside>
-        <article class="sectionHead__article">
+        <article class="sectionHead__article" data-aos="fade-left" data-aos-delay="200">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/yYEQ_V1QuvE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </article>
     </section>
     
       <footer class="footer" id="contactos">
-        <div class="footer__contenedor contenedor-max centrar-bloque">
+        <div class="footer__contenedor contenedor-max centrar-bloque" data-aos="fade-up">
             <div class="footer__contenedor__contenedorSuperior">
                 <div class="footer__contenedor__contenedorSuperior__izquierda mt-8 mb-8">
                     <div class="footer__contenedor__contenedorSuperior__izquierda__col1">
@@ -126,7 +129,11 @@
           </div>
         </footer>
     
-      <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-      <script src="../../js/paquetes.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="../../js/paquetes.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

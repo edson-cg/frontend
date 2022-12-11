@@ -823,7 +823,7 @@ img {
 }
 .viaje__container__articulos__servicios--i {
   font-size: 3rem;
-  background-color: darkred;
+  background-color: rgb(224, 216, 207);
   color: black;
   padding: 2rem;
   border-radius: 1rem;
@@ -2062,8 +2062,9 @@ img {
 .sectionHead__aside__col--exp {
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(224, 216, 207);
+  color: darkred;
   font-size: 1.5rem;
+  margin-top: 3rem;
 }
 .sectionHead__aside__col h1 {
   font-size: 5rem;
