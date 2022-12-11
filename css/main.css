@@ -823,7 +823,7 @@ img {
 }
 .viaje__container__articulos__servicios--i {
   font-size: 3rem;
-  background-color: darkred;
+  background-color: rgb(224, 216, 207);
   color: black;
   padding: 2rem;
   border-radius: 1rem;
@@ -993,7 +993,6 @@ img {
 }
 .card__container__contInf__inf {
   position: relative;
-  /* width: calc(100% / 4 - 4rem / 3); */
   width: 45rem;
   height: 35rem;
   /* margin-bottom: 5%; */
@@ -2063,8 +2062,9 @@ img {
 .sectionHead__aside__col--exp {
   font-weight: 600;
   text-transform: uppercase;
-  color: rgb(224, 216, 207);
+  color: darkred;
   font-size: 1.5rem;
+  margin-top: 3rem;
 }
 .sectionHead__aside__col h1 {
   font-size: 5rem;

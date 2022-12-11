@@ -29,7 +29,6 @@
             gap: 5rem;
             &__inf {
                 position: relative;
-                /* width: calc(100% / 4 - 4rem / 3); */
                 width: 45rem;
                 height: 35rem;
                 @media only screen and (max-width: $bp-xxlarge){
