@@ -124,6 +124,26 @@ $color-bg-red: darkred;
     }
 }
 
+.contenedor-small {
+    max-width: 164rem;
+    @media only screen and (max-width: $bp-xxlarge){
+        max-width: 140rem;
+    }
+    @media only screen and (max-width: $bp-xlarge){
+        max-width: 110rem;
+    }
+    @media only screen and (max-width: $bp-large){
+        max-width: 70rem;
+    }
+    @media only screen and (max-width: $bp-medium){
+        max-width: 50rem;
+    }
+    @media only screen and (max-width: $bp-small){
+        max-width: 30rem;
+        padding: 0 2rem;
+    }
+}
+
 /* Tamaño de icons */
 .icon {
     font-size: 2rem;

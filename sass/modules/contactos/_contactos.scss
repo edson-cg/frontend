@@ -1,0 +1,196 @@
+.contacto {
+    width: 100%;
+    background-color: $color-bg-light;
+    font-family: $font-poppin;
+    &__titulo {
+        padding-top: 10rem;
+        padding-left: 3%;
+        padding-right: 3%;
+        &--h1 {
+            font-size: 5rem;
+            color: $color-bg-red;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            @media only screen and (max-width: $bp-medium){
+                display: flex;
+                justify-content: center;
+                font-size: 4.5rem;
+                padding-bottom: 2rem;
+            }
+        }
+        @media only screen and (max-width: $bp-medium){
+            padding-top: 6rem;
+        }
+    }
+    &__container {
+        display: flex;
+        gap: 10rem;
+        padding-top: 4rem;
+        padding-left: 3%;
+        padding-right: 3%;
+        &__izquierda{
+            width: 50%;
+            &__titulo {
+                &--h2 {
+                    font-size: 3.5rem;
+                    color: $color-bg-red;
+                    font-weight: 300;
+                    margin-bottom: 5%;
+                    padding-bottom: 3rem;
+                    border-bottom: solid rgba(224, 216, 207, .5);
+                    @media only screen and (max-width: $bp-medium){
+                        text-align: center;
+                        font-size: 3rem;
+                    }
+                }
+            }
+            &__cont {
+                
+                &__form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 3rem;
+                    &__box {
+                        display: flex;
+                        flex-direction: column;
+                        label {
+                            font-size: 2.5rem;
+                            @media only screen and (max-width: $bp-xlarge){
+                                font-size: 2.2rem;
+                            }
+                            @media only screen and (max-width: $bp-large){
+                                font-size: 2rem;
+                            }
+                            @media only screen and (max-width: $bp-medium){
+                                font-size: 1.5rem;
+                            }
+                        }
+                        input {
+                            font-size: 2rem;
+                            padding: .5rem;
+                            width: 60rem;
+                            @media only screen and (max-width: $bp-xxlarge){
+                                font-size: 2rem;
+                                padding: .5rem;
+                                width: 50rem;
+                            }
+                            @media only screen and (max-width: $bp-xlarge){
+                                font-size: 2rem;
+                                padding: .5rem;
+                                width: 40rem;
+                            }
+                            @media only screen and (max-width: $bp-large){
+                                font-size: 1.5rem;
+                                padding: .5rem;
+                                width: 30rem;
+                            }
+                        }
+                        textarea {
+                            font-family: $font-poppin;
+                            width: 60rem;
+                            font-size: 2rem;
+                            padding: 1rem;
+                            @media only screen and (max-width: $bp-xxlarge){
+                                width: 50rem;
+                            }
+                            @media only screen and (max-width: $bp-xlarge){
+                                width: 40rem;
+                            }
+                            @media only screen and (max-width: $bp-large){
+                                width: 30rem;
+                                font-size: 1.5rem;
+                            }
+                        }
+                    }
+                    &__boton {
+                        display: block;
+                        &--but {
+                            margin-top: 6%;
+                            margin-bottom: 4rem;
+                            color: black;
+                        }
+                    }
+                    @media only screen and (max-width: $bp-medium){
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+        &__derecha {
+            width: 50%;
+            &__detalles {
+                h2 {
+                    font-size: 3.5rem;
+                    color: $color-bg-red;
+                    font-weight: 300;
+                    margin-bottom: 3rem;
+                    padding-bottom: 3rem;
+                    border-bottom: solid rgba(224, 216, 207, .5);
+                    @media only screen and (max-width: $bp-medium){
+                        text-align: center;
+                        font-size: 3rem;
+                    }
+                }
+            }
+            &__con {
+                display: flex;
+                align-items: center;
+                gap: 2rem;
+                margin-bottom: 3rem;
+                &__icon {
+                    &--i {
+                        font-size: 3rem;
+                        background-color: $color-base;
+                        color: black;
+                        padding: 2rem;
+                        border-radius: 1rem;
+                    }
+                    button {
+                        margin-top: 3rem;
+                        margin-bottom: 4rem;
+                        color: black;
+                    }
+                }
+                &__text {
+                    h3 {
+                        font-size: 3rem;
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 2.8rem;
+                        }
+                        @media only screen and (max-width: $bp-large){
+                            font-size: 2.5rem;
+                        }
+                    }
+                    p {
+                        font-size: 2rem;
+                        @media only screen and (max-width: $bp-xlarge){
+                            font-size: 1.8rem;
+                        }
+                        @media only screen and (max-width: $bp-large){
+                            font-size: 1.5rem;
+                        }
+                    }
+                    @media only screen and (max-width: $bp-medium){
+                        text-align: center;
+                    }
+                }
+                @media only screen and (max-width: $bp-medium){
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+        @media only screen and (max-width: $bp-medium){
+            flex-direction: column;
+            align-items: center;
+        }
+        @media only screen and (max-width: $bp-medium){
+            gap: 4rem;
+        }
+        @media only screen and (max-width: $bp-medium){
+            padding-top: 3rem;
+        }
+    }
+}

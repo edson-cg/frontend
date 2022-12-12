@@ -167,6 +167,36 @@ img {
   }
 }
 
+.contenedor-small {
+  max-width: 164rem;
+}
+@media only screen and (max-width: 1980px) {
+  .contenedor-small {
+    max-width: 140rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .contenedor-small {
+    max-width: 110rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contenedor-small {
+    max-width: 70rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contenedor-small {
+    max-width: 50rem;
+  }
+}
+@media only screen and (max-width: 21em) {
+  .contenedor-small {
+    max-width: 30rem;
+    padding: 0 2rem;
+  }
+}
+
 /* Tamaño de icons */
 .icon {
   font-size: 2rem;
@@ -2137,6 +2167,273 @@ img {
   .sectionHead__article iframe {
     display: none;
   }
+}
+
+/* Importación de estilos --> Contacto */
+.contacto {
+  width: 100%;
+  background-color: rgb(253, 252, 250);
+  font-family: "Poppins", sans-serif;
+}
+.contacto__titulo {
+  padding-top: 10rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.contacto__titulo--h1 {
+  font-size: 5rem;
+  color: darkred;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+@media only screen and (max-width: 48em) {
+  .contacto__titulo--h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+    padding-bottom: 2rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__titulo {
+    padding-top: 6rem;
+  }
+}
+.contacto__container {
+  display: flex;
+  gap: 10rem;
+  padding-top: 4rem;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.contacto__container__izquierda {
+  width: 50%;
+}
+.contacto__container__izquierda__titulo--h2 {
+  font-size: 3.5rem;
+  color: darkred;
+  font-weight: 300;
+  margin-bottom: 5%;
+  padding-bottom: 3rem;
+  border-bottom: solid rgba(224, 216, 207, 0.5);
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__izquierda__titulo--h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+.contacto__container__izquierda__cont__form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+}
+.contacto__container__izquierda__cont__form__box {
+  display: flex;
+  flex-direction: column;
+}
+.contacto__container__izquierda__cont__form__box label {
+  font-size: 2.5rem;
+}
+@media only screen and (max-width: 1440px) {
+  .contacto__container__izquierda__cont__form__box label {
+    font-size: 2.2rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contacto__container__izquierda__cont__form__box label {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__izquierda__cont__form__box label {
+    font-size: 1.5rem;
+  }
+}
+.contacto__container__izquierda__cont__form__box input {
+  font-size: 2rem;
+  padding: 0.5rem;
+  width: 60rem;
+}
+@media only screen and (max-width: 1980px) {
+  .contacto__container__izquierda__cont__form__box input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .contacto__container__izquierda__cont__form__box input {
+    font-size: 2rem;
+    padding: 0.5rem;
+    width: 40rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contacto__container__izquierda__cont__form__box input {
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 30rem;
+  }
+}
+.contacto__container__izquierda__cont__form__box textarea {
+  font-family: "Poppins", sans-serif;
+  width: 60rem;
+  font-size: 2rem;
+  padding: 1rem;
+}
+@media only screen and (max-width: 1980px) {
+  .contacto__container__izquierda__cont__form__box textarea {
+    width: 50rem;
+  }
+}
+@media only screen and (max-width: 1440px) {
+  .contacto__container__izquierda__cont__form__box textarea {
+    width: 40rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contacto__container__izquierda__cont__form__box textarea {
+    width: 30rem;
+    font-size: 1.5rem;
+  }
+}
+.contacto__container__izquierda__cont__form__boton {
+  display: block;
+}
+.contacto__container__izquierda__cont__form__boton--but {
+  margin-top: 6%;
+  margin-bottom: 4rem;
+  color: black;
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__izquierda__cont__form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.contacto__container__derecha {
+  width: 50%;
+}
+.contacto__container__derecha__detalles h2 {
+  font-size: 3.5rem;
+  color: darkred;
+  font-weight: 300;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: solid rgba(224, 216, 207, 0.5);
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__derecha__detalles h2 {
+    text-align: center;
+    font-size: 3rem;
+  }
+}
+.contacto__container__derecha__con {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+.contacto__container__derecha__con__icon--i {
+  font-size: 3rem;
+  background-color: rgb(224, 216, 207);
+  color: black;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+.contacto__container__derecha__con__icon button {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: black;
+}
+.contacto__container__derecha__con__text h3 {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 1440px) {
+  .contacto__container__derecha__con__text h3 {
+    font-size: 2.8rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contacto__container__derecha__con__text h3 {
+    font-size: 2.5rem;
+  }
+}
+.contacto__container__derecha__con__text p {
+  font-size: 2rem;
+}
+@media only screen and (max-width: 1440px) {
+  .contacto__container__derecha__con__text p {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .contacto__container__derecha__con__text p {
+    font-size: 1.5rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__derecha__con__text {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container__derecha__con {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container {
+    gap: 4rem;
+  }
+}
+@media only screen and (max-width: 48em) {
+  .contacto__container {
+    padding-top: 3rem;
+  }
+}
+
+.mapa {
+  width: 100%;
+  background-color: rgb(224, 216, 207);
+  font-family: "Poppins", sans-serif;
+}
+.mapa__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.mapa__container__titulo--h4 {
+  text-align: center;
+  font-size: 5rem;
+  color: darkred;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+@media only screen and (max-width: 48em) {
+  .mapa__container__titulo--h4 {
+    font-size: 4.5rem;
+  }
+}
+.mapa__gps {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.mapa__gps--iframe {
+  width: 100%;
+  margin-bottom: 6rem;
+  border-radius: 2rem;
 }
 
 /* Importación de estilos --> Remanentes para aplicar Carousel */
