@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="../../css/main.css">
 
     <title>Document</title>
@@ -17,7 +20,9 @@
 <body>
     <header class="headerpack">
         <nav class="headerpack__nav contenedor-max centrar-bloque">
-            <img class="headerpack__nav--logo" src="../../img//traveload.png" alt="">
+            <a href="../../index.html">
+                <img class="headerpack__nav--logo" src="../../img//traveload.png" alt="">
+            </a>
             <ul class="headerpack__nav__ul">
                 <li class="headerpack__nav__ul__li"><a href="../../index.html" class="headerpack__nav__ul__li--link">Inicio</a></li>
                 <li class="headerpack__nav__ul__li"><a href="../arequipa/arequipa.html" class="headerpack__nav__ul__li--link">Arequipa</a></li>
@@ -34,18 +39,18 @@
     <section class="sectionPack">
         <div class="sectionPack__container contenedor-medium centrar-bloque">
             <div class="sectionPack__container__titulo">
-                <h1 class="sectionPack__container__titulo--h1">TOURS CONVENCIONAL COLCA - 2 DIAS Y 1 NOCHE</h1>
+                <h1 class="sectionPack__container__titulo--h1" data-aos="fade-down" data-aos-delay="100">TOURS CONVENCIONAL COLCA - 2 DIAS Y 1 NOCHE</h1>
             </div>
             <div class="sectionPack__container__info">
                 <article class="sectionPack__container__info__article pack">
                     <div class="sectionPack__container__info__article__cont">
-                        <img class="sectionPack__container__info__article__cont--img" src="../../img/colca-2dias-1noche-tours-convencional.jpg" alt="">
+                        <img class="sectionPack__container__info__article__cont--img" data-aos="fade-right" data-aos-delay="200" src="../../img/colca-2dias-1noche-tours-convencional.jpg" alt="">
                     </div>
                     <div class="sectionPack__container__info__article__box">
-                        <h2 class="sectionPack__container__info__article__box--h2">Descripción</h2>
+                        <h2 class="sectionPack__container__info__article__box--h2" data-aos="fade-right" data-aos-delay="200">Descripción</h2>
                     </div>
-                    <h3 class="sectionPack__container__info__article--h3">TOURS CONVENCIONAL COLCA - 2 DIAS Y 1 NOCHE</h3>
-                    <p class="sectionPack__container__info__article--p">
+                    <h3 class="sectionPack__container__info__article--h3" data-aos="fade-up" data-aos-delay="100">TOURS CONVENCIONAL COLCA - 2 DIAS Y 1 NOCHE</h3>
+                    <p class="sectionPack__container__info__article--p" data-aos="fade-up" data-aos-delay="200">
                         DÍA 1: AREQUIPA / CHIVAY.<br>
                         7:30am a 8:00am, La movilidad pasa por los diferentes hoteles para iniciar nuestro viaje a uno de los cañones más profundos del mundo,<br>
                         tomando la carretera de Yura, bordeando el nevado Chachani hacia pampa Cañahuas (Reserva Nacional de Aguada Blanca y Salinas) hábitat de los bellos camélidos sudamericanos. En los bofedales de tocra podremos apreciar variedad de aves migratorias. Pasaremos por el cráter de un volcán extinto (Chucura). Nos detendremos en el mirador de los volcanes, que es también la zona más alta del camino (4,800 m.s.n.m.) desde donde apreciaremos gran parte de la cordillera occidental.<br>
@@ -70,25 +75,25 @@
                     </p>
                 </article>
                 <aside class="sectionPack__container__info__aside">
-                    <div class="sectionPack__container__info__aside__precio">
+                    <div class="sectionPack__container__info__aside__precio" data-aos="fade-up">
                         <h4 class="sectionPack__container__info__aside__precio--h4">Precio</h4>
                         <p class="sectionPack__container__info__aside__precio--p">S/160.00</p>
                     </div>
-                    <div class="sectionPack__container__info__aside__pago">
+                    <div class="sectionPack__container__info__aside__pago" data-aos="fade-up" data-aos-delay="100">
                         <img class="sectionPack__container__info__aside__pago--img" src="../../img/visa.png" alt="">
                         <button class="sectionPack__container__info__aside__pago--boton btn btn-base">Pagar con Visa</button>
                     </div>
-                    <div class="sectionPack__container__info__aside__contacto">
-                        <form class="sectionPack__container__info__aside__contacto__form" action="">
+                    <div class="sectionPack__container__info__aside__contacto" data-aos="fade-up" data-aos-delay="200">
+                        <form class="sectionPack__container__info__aside__contacto__form" target="_blank" action="https://formsubmit.co/edson.raul.cg@gmail.com" method="POST">
                             <h4>Contáctenos</h4>
                             <p>Nombre</p>
-                            <input type="text">
+                            <input type="text" name="Nombre" required>
                             <p>E-mail</p>
-                            <input type="email">
+                            <input type="email" name="email" required>
                             <p>Telefono</p>
-                            <input type="text">
+                            <input type="text" name="Telefono">
                             <p>Mensaje</p>
-                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                            <textarea name="Mensaje" id="" cols="30" rows="10"></textarea>
                             <div class="sectionPack__container__info__aside__contacto__form__divBoton">
                                 <button class="sectionPack__container__info__aside__contacto__form__divBoton--btn btn btn-base">ENVIAR</button>
                             </div>
@@ -100,7 +105,7 @@
     </section>
 
     <section class="otros">
-        <div class="otros__container">
+        <div class="otros__container" data-aos="fade-up" data-aos-delay="100">
             <h4 class="otros__container--h4">Otros Tours</h4>
             <div class="otros__container__targ">
                 <div class="otros__container__targ__inf">
@@ -151,21 +156,21 @@
         </div>
     </section>
 
-    <footer class="footer" id="contactos">
-        <div class="footer__contenedor contenedor-max centrar-bloque">
+    <footer class="footer">
+        <div class="footer__contenedor contenedor-max centrar-bloque" data-aos="fade-up">
             <div class="footer__contenedor__contenedorSuperior">
                 <div class="footer__contenedor__contenedorSuperior__izquierda mt-8 mb-8">
                     <div class="footer__contenedor__contenedorSuperior__izquierda__col1">
                         <h4 class="mb-2">Dirección</h4>
-                        <p>Calle</p>
-                        <p>Alvarez Thomas 107</p>
-                        <p>Of-01</p>
+                        <p>Portal</p>
+                        <p>San Agustin 107</p>
+                        <p>04001</p>
                         <p>Cercado Arequipa</p>
                     </div>
                     <div class="footer__contenedor__contenedorSuperior__izquierda__col2">
                         <h4 class="mb-2">Centro de Atención</h4>
                         <p>Telefono</p>
-                        <p class="mb-2">+51-940187145</p>
+                        <p class="mb-2">+51-978145104</p>
                         <p>E-mail</p>
                         <p>traveload@gmail.com</p>
                     </div>
@@ -212,5 +217,9 @@
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="../../js/paquetes.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
