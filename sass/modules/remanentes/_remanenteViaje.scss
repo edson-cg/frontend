@@ -1,5 +1,4 @@
 .viaje2 {
-    /* border: solid red; */
     display: none;
     background-color: $color-bg-light;
     width: 100%;
@@ -40,9 +39,7 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
-                /* gap: 2rem; */
                 &__servicios {
-                    /* border: 3px solid black; */
                     background: linear-gradient(to top, $color-base, $color-bg-light);
                     border-radius: 2rem;
                     box-shadow: 0rem 1rem .3rem;

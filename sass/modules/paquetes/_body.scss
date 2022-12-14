@@ -35,8 +35,6 @@
             width: 100%;
             border-right: solid rgba(224, 216, 207, .5);
             &__article {
-                /* display: flex;
-                flex-direction: column; */
                 &__cont {
                     width: 60%;
                     &--img {
@@ -152,7 +150,6 @@
                         h4 {
                             text-align: center;
                             font-size: 3rem;
-                            /* margin-top: 2rem; */
                             margin-bottom: 2rem;
                             @media only screen and (max-width: $bp-xlarge){
                                 font-size: 2.5rem;

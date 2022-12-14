@@ -1,12 +1,10 @@
 .otros {
-    /* border: solid red; */
     background-color: $color-base;
     font-family: $font-poppin;
     &__container {
         display: flex;
         flex-direction: column;
         text-align: center;
-        /* border: solid green; */
         padding: 4rem 4rem 6rem 4rem;
         &--h4 {
             font-size: 5rem;
@@ -28,7 +26,6 @@
             gap: 5rem;
             &__inf {
                 position: relative;
-                /* width: calc(100% / 4 - 4rem / 3); */
                 width: 45rem;
                 height: 35rem;
                 @media only screen and (max-width: $bp-xxlarge){
@@ -43,7 +40,6 @@
                     width: 28rem;
                     height: 21rem;
                 }
-                /* margin-bottom: 5%; */
                 &__front {
                     position: absolute;
                     width: 100%;
@@ -129,22 +125,17 @@
                     text-align: center;
                     &--h4 {
                         font-size: 2.5rem;
-                        /* margin-top: 1rem; */
-                        /* letter-spacing: 1px; */
                         @media only screen and (max-width: $bp-xxlarge){
                             font-size: 2.3rem;
-                            /* letter-spacing: 1px; */
                         }
                         @media only screen and (max-width: $bp-xlarge){
                             font-size: 2.1rem;
-                            /* letter-spacing: 1px; */
                         }
                         @media only screen and (max-width: $bp-medium){
                             font-size: 2rem;
                         }
                         @media only screen and (max-width: $bp-small){
                             font-size: 1.5rem;
-                            /* letter-spacing: 1px; */
                         }
                     }
                     &--p {
@@ -156,14 +147,12 @@
                         }
                         @media only screen and (max-width: $bp-xlarge){
                             font-size: 1.2rem;
-                            /* letter-spacing: 1px; */
                         }
                         @media only screen and (max-width: $bp-medium){
                             font-size: 1.1rem;
                         }
                         @media only screen and (max-width: $bp-small){
                             font-size: .7rem;
-                            /* letter-spacing: 1px; */
                         }
                     }
                     &__cont {
