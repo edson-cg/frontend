@@ -15,7 +15,6 @@ $bp-small: 21em;
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
-    /* background-color: rgb(224, 216, 207); */
     @media only screen and (max-width: $bp-small){
         font-size: 50%;
     }

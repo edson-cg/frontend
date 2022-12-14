@@ -1,5 +1,4 @@
 .viaje {
-    /* border: solid red; */
     background-color: $color-bg-light;
     width: 100%;
     font-family: $font-poppin;
@@ -23,7 +22,6 @@
             gap: 2rem;
             padding-top: 6%;
             &__servicios {
-                /* border: 3px solid black; */
                 background: linear-gradient(to top, $color-base, $color-bg-light);
                 border-radius: 2rem;
                 box-shadow: -0.01rem 1rem 1rem;

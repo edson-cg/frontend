@@ -11,7 +11,6 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  /* background-color: rgb(224, 216, 207); */
 }
 @media only screen and (max-width: 21em) {
   html {
@@ -128,12 +127,9 @@ img {
   }
 }
 
-/* .bg-base {
-    background-color: $color-base;
-} */
 /* max de 2560px */
 .contenedor-max {
-  max-width: 265rem;
+  max-width: 256rem;
 }
 
 /* max de 1200px */
@@ -583,12 +579,9 @@ img {
   width: 100%;
   font-family: "Poppins", sans-serif;
   background-color: rgb(224, 216, 207);
-  /* @media only screen and (max-width: $bp-xxlarge){
-      max-width: $bp-xxlarge;
-  } */
 }
 .header__nav {
-  background-image: url(../../img/Arequipa-1.png);
+  background-image: url(../../img/Arequipa1.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -818,7 +811,6 @@ img {
 }
 
 .viaje {
-  /* border: solid red; */
   background-color: rgb(253, 252, 250);
   width: 100%;
   font-family: "Poppins", sans-serif;
@@ -845,7 +837,6 @@ img {
   padding-top: 6%;
 }
 .viaje__container__articulos__servicios {
-  /* border: 3px solid black; */
   background: linear-gradient(to top, rgb(224, 216, 207), rgb(253, 252, 250));
   border-radius: 2rem;
   box-shadow: -0.01rem 1rem 1rem;
@@ -1028,7 +1019,6 @@ img {
   position: relative;
   width: 45rem;
   height: 35rem;
-  /* margin-bottom: 5%; */
 }
 @media only screen and (max-width: 1980px) {
   .card__container__contInf__inf {
@@ -1150,19 +1140,15 @@ img {
 }
 .card__container__contInf__inf__back--h4 {
   font-size: 2.5rem;
-  /* margin-top: 1rem; */
-  /* letter-spacing: 1px; */
 }
 @media only screen and (max-width: 1980px) {
   .card__container__contInf__inf__back--h4 {
     font-size: 2.3rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 1440px) {
   .card__container__contInf__inf__back--h4 {
     font-size: 2.1rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 48em) {
@@ -1173,7 +1159,6 @@ img {
 @media only screen and (max-width: 21em) {
   .card__container__contInf__inf__back--h4 {
     font-size: 1.5rem;
-    /* letter-spacing: 1px; */
   }
 }
 .card__container__contInf__inf__back--p {
@@ -1189,7 +1174,6 @@ img {
 @media only screen and (max-width: 1440px) {
   .card__container__contInf__inf__back--p {
     font-size: 1.2rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 48em) {
@@ -1200,7 +1184,6 @@ img {
 @media only screen and (max-width: 21em) {
   .card__container__contInf__inf__back--p {
     font-size: 0.7rem;
-    /* letter-spacing: 1px; */
   }
 }
 .card__container__contInf__inf__back__cont {
@@ -1280,7 +1263,6 @@ img {
   }
 }
 .footer__contenedor__contenedorSuperior__derecha__col {
-  /* font-family: $font-Inter; */
   color: black;
   font-size: 1.5rem;
 }
@@ -1386,7 +1368,6 @@ img {
   width: 100%;
   font-family: "Poppins", sans-serif;
   background-color: rgb(224, 216, 207);
-  /* position: fixed; */
 }
 .headerpack__nav {
   display: flex;
@@ -1521,10 +1502,6 @@ img {
   display: flex;
   width: 100%;
   border-right: solid rgba(224, 216, 207, 0.5);
-}
-.sectionPack__container__info__article {
-  /* display: flex;
-  flex-direction: column; */
 }
 .sectionPack__container__info__article__cont {
   width: 60%;
@@ -1667,7 +1644,6 @@ img {
 .sectionPack__container__info__aside__contacto__form h4 {
   text-align: center;
   font-size: 3rem;
-  /* margin-top: 2rem; */
   margin-bottom: 2rem;
 }
 @media only screen and (max-width: 1440px) {
@@ -1796,7 +1772,6 @@ img {
 }
 
 .otros {
-  /* border: solid red; */
   background-color: rgb(224, 216, 207);
   font-family: "Poppins", sans-serif;
 }
@@ -1804,7 +1779,6 @@ img {
   display: flex;
   flex-direction: column;
   text-align: center;
-  /* border: solid green; */
   padding: 4rem 4rem 6rem 4rem;
 }
 .otros__container--h4 {
@@ -1832,10 +1806,8 @@ img {
 }
 .otros__container__targ__inf {
   position: relative;
-  /* width: calc(100% / 4 - 4rem / 3); */
   width: 45rem;
   height: 35rem;
-  /* margin-bottom: 5%; */
 }
 @media only screen and (max-width: 1980px) {
   .otros__container__targ__inf {
@@ -1957,19 +1929,15 @@ img {
 }
 .otros__container__targ__inf__back--h4 {
   font-size: 2.5rem;
-  /* margin-top: 1rem; */
-  /* letter-spacing: 1px; */
 }
 @media only screen and (max-width: 1980px) {
   .otros__container__targ__inf__back--h4 {
     font-size: 2.3rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 1440px) {
   .otros__container__targ__inf__back--h4 {
     font-size: 2.1rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 48em) {
@@ -1980,7 +1948,6 @@ img {
 @media only screen and (max-width: 21em) {
   .otros__container__targ__inf__back--h4 {
     font-size: 1.5rem;
-    /* letter-spacing: 1px; */
   }
 }
 .otros__container__targ__inf__back--p {
@@ -1996,7 +1963,6 @@ img {
 @media only screen and (max-width: 1440px) {
   .otros__container__targ__inf__back--p {
     font-size: 1.2rem;
-    /* letter-spacing: 1px; */
   }
 }
 @media only screen and (max-width: 48em) {
@@ -2007,7 +1973,6 @@ img {
 @media only screen and (max-width: 21em) {
   .otros__container__targ__inf__back--p {
     font-size: 0.7rem;
-    /* letter-spacing: 1px; */
   }
 }
 .otros__container__targ__inf__back__cont {
@@ -2154,9 +2119,6 @@ img {
   align-items: center;
   justify-content: center;
   margin-right: 3%;
-  /* @media only screen and (max-width: $bp-xlarge){
-      width: 100%;
-  } */
 }
 .sectionHead__article iframe {
   width: 100%;
@@ -2444,7 +2406,6 @@ img {
 
 /* Importación de estilos --> Remanentes para aplicar Carousel */
 .viaje2 {
-  /* border: solid red; */
   display: none;
   background-color: rgb(253, 252, 250);
   width: 100%;
@@ -2498,10 +2459,8 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  /* gap: 2rem; */
 }
 .viaje2__container__slider__articulos__servicios {
-  /* border: 3px solid black; */
   background: linear-gradient(to top, rgb(224, 216, 207), rgb(253, 252, 250));
   border-radius: 2rem;
   box-shadow: 0rem 1rem 0.3rem;
