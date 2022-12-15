@@ -3,7 +3,7 @@
     font-family: $font-poppin;
     background-color: $color-base;
     &__nav {
-        background-image: url(../../img/Arequipa1.png);
+        background-image: url(../../img/Arequipa-dia.jpg);
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
@@ -58,6 +58,65 @@
                     width: 6rem;
                 }
             }
+            &__cambio {
+                display: flex;
+                gap: 5rem;
+                font-size: 1.5rem;
+                padding: .8rem;
+                background-color: $color-bg-red;
+                border-radius: 2rem;
+                &__co1 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: .8rem;
+                    background-color: $color-bg-light;
+                    border-radius: 1rem;
+                    cursor: pointer;
+                    @media only screen and (max-width: $bp-medium){
+                        padding: .5rem;
+                    }
+                    @media only screen and (max-width: $bp-small){
+                        padding: .4rem;
+                    }
+                }
+                &__co2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding: 1rem;
+                    background-color: $color-oscuro;
+                    color: $color-bg-light;
+                    border-radius: 1rem;
+                    cursor: pointer;
+                    @media only screen and (max-width: $bp-medium){
+                        padding: .8rem;
+                    }
+                    @media only screen and (max-width: $bp-small){
+                        padding: .7rem;
+                    }
+                }
+                @media only screen and (max-width: $bp-xlarge){
+                    gap: 4rem;
+                    font-size: 1.2rem;
+                    padding: .6rem;
+                }
+                @media only screen and (max-width: $bp-large){
+                    gap: 4rem;
+                    font-size: 1.2rem;
+                    padding: .6rem;
+                }
+                @media only screen and (max-width: $bp-medium){
+                    gap: 3rem;
+                    font-size: 1.3rem;
+                    padding: .6rem;
+                }
+                @media only screen and (max-width: $bp-small){
+                    gap: 2rem;
+                    font-size: 1.2rem;
+                    padding: .5rem;
+                }
+            }
             &__ul {
                 display: flex;
                 @media only screen and (max-width: $bp-large){
@@ -87,8 +146,8 @@
                         border-bottom: .3rem solid transparent;
                         transition: all .3s;
                         &:hover {
-                            color: $color-base-dark;
-                            border-bottom: .3rem solid $color-base-dark;
+                            color: $color-bg-red;
+                            border-bottom: .3rem solid $color-bg-red;
                             transition: all .3s;
                         }
                     }

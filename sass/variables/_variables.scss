@@ -3,9 +3,10 @@ $font-poppin: 'Poppins', sans-serif;
 $font-Inter: 'Inter', sans-serif;
 $color-base: rgb(224, 216, 207);
 $color-base-light: rgb(206, 152, 98);
-$color-base-dark: rgb(85, 46, 7);
+$color-base-dark: black;
 $color-bg-light: rgb(253, 252, 250);
 $color-bg-red: darkred;
+$color-oscuro: rgb(49, 49, 49);
 
 /* Variables en clases para swiper */
 .swiper {
@@ -94,9 +95,9 @@ $color-bg-red: darkred;
     }
 }
 
-/* max de 2560px */
+/* max de 2650px */
 .contenedor-max {
-    max-width: 256rem;
+    max-width: 265rem;
 }
 /* max de 1200px */
 .contenedor-medium {
