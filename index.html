@@ -27,11 +27,19 @@
 
   <!-- Apartado Header -->
   <header class="header">
-    <div class="header__nav contenedor-max centrar-bloque">
-      <nav class="header__nav__container contenedor-max centrar-bloque">
+    <div id="img" class="header__nav contenedor-max centrar-bloque">
+      <nav id="nav" class="header__nav__container contenedor-max centrar-bloque">
         <a href="./index.html">
           <img class="header__nav__container--logo" src="./img//traveload.png" alt="">
         </a>
+        <div class="header__nav__container__cambio">
+          <div class="header__nav__container__cambio__co1" id="dia">
+            <i class="header__nav__container__cambio__co1--sol fa-solid fa-sun"></i>
+          </div>
+          <div class="header__nav__container__cambio__co2" id="noche">
+            <i class="header__nav__container__cambio__co2--luna fa-solid fa-moon"></i>
+          </div>
+        </div>
         <ul class="header__nav__container__ul">
           <li class="header__nav__container__ul__li"><a href="./index.html" class="header__nav__container__ul__li--link">Inicio</a></li>
           <li class="header__nav__container__ul__li"><a href="./html/arequipa/arequipa.html" class="header__nav__container__ul__li--link">Arequipa</a></li>
@@ -58,7 +66,7 @@
   </header>
 
   <!-- Sección de viaje y remanente (Enlaces para modos de viaje y estadía en Arequipa) -->
-  <section class="viaje">
+  <section class="viaje" id="viaje">
     <div class="viaje__container contenedor-medium centrar-bloque">
       <h3 class="viaje__container--h3 pb-3" data-aos="fade-up">Modos de viaje a Arequipa</h3>
       <p class="viaje__container--p" data-aos="fade-up" data-aos-delay="100">Arequipa es una increible ciudad, con un montón de lugares para conocer: Una variedad de ecosistemas impresionantes, paisajes desbordantes, hermosos pueblos cargados de historia, cultura, tradiciones, playas, flora, fauna... y por supuesto, su deliciosa y afamada gastronomía. Llega y descubre esta maravillosa ciudad con los diferentes modos de viaje que te ofrecen estas <b>Empresas recomendadas</b>.
@@ -88,7 +96,7 @@
     </div>
   </section>
 
-  <section class="viaje2">
+  <section class="viaje2" id="viaje2">
     <div class="viaje2__container contenedor-medium centrar-bloque">
       <h3 class="viaje2__container--h3 pb-3" data-aos="fade-up">Modos de viaje a Arequipa</h3>
       <p class="viaje2__container--p" data-aos="fade-up" data-aos-delay="100">Arequipa es una increible ciudad, con un montón de lugares para conocer: Una variedad de ecosistemas impresionantes, paisajes desbordantes, hermosos pueblos cargados de historia, cultura, tradiciones, playas, flora, fauna... y por supuesto, su deliciosa y afamada gastronomía. Llega y descubre esta maravillosa ciudad con los diferentes modos de viaje que te ofrecen estas <b>Empresas recomendadas</b>.</p>
@@ -122,7 +130,7 @@
     </div>
   </section>
 
-  <section class="viaje">
+  <section class="viaje" id="viaje3">
     <div class="viaje__container viaje__containerDos contenedor-medium centrar-bloque">
       <h3 class="viaje__container--h3 pb-3" data-aos="fade-up">Elige tu lugar de descanso</h3>
       <p class="viaje__container--p" data-aos="fade-up" data-aos-delay="100">Si vas a Arequipa, te recomendamos que evalues previamente tu visita, para que elijas bien donde alojarse y donde degustar la comida, esto será una gran ayuda para tu viaje. Y para eso estamos nosotros aquí, que hemos preparado estos enlaces recomendados para ayudarte a encontrar el alojamiento y restaurante perfecto en Arequipa</p>
@@ -152,7 +160,7 @@
     </div>
   </section>
 
-  <section class="viaje2">
+  <section class="viaje2" id="viaje4">
     <div class="viaje2__container viaje2__containerDos contenedor-medium centrar-bloque">
       <h3 class="viaje2__container--h3 pb-3" data-aos="fade-up">Elige tu lugar de descanso</h3>
       <p class="viaje2__container--p" data-aos="fade-up" data-aos-delay="100">Si vas a Arequipa, te recomendamos que evalues previamente tu visita, para que elijas bien donde alojarse y donde degustar la comida, esto será una gran ayuda para tu viaje. Y para eso estamos nosotros aquí, que hemos preparado estos enlaces recomendados para ayudarte a encontrar el alojamiento y restaurante perfecto en Arequipa.</p>
@@ -204,7 +212,7 @@
   <!-- Sección de targetas de paquetes de turismo -->
   <section class="card" id="paquetess">
     <div class="card__container contenedor-medium centrar-bloque" data-aos="fade-up">
-      <h4 class="card__container--h4" data-aos="fade-up">Paquetes Turisticos<br>Arequipa</h4>
+      <h4 id="cardTi" class="card__container--h4" data-aos="fade-up">Paquetes Turisticos<br>Arequipa</h4>
       <div class="card__container__contInf">
 
         <div class="card__container__contInf__inf">
@@ -482,7 +490,7 @@
   </section>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" id="footer">
     <div class="footer__contenedor contenedor-max centrar-bloque" data-aos="fade-up">
         <div class="footer__contenedor__contenedorSuperior">
             <div class="footer__contenedor__contenedorSuperior__izquierda mt-8 mb-8">
@@ -526,20 +534,20 @@
       </div>
     </footer>
 
-    <footer class="footerInf">
-      <div class="footerInf__contenedorInferior contenedor-max centrar-bloque">
-          <div class="footerInf__contenedorInferior__izquierda">
-              <p class="mt-3 mb-3">© 2022 Traveload by Escorp group | All Rights Reserved | Powered by <span>Shom</span></p>
-          </div>
-          <div class="footerInf__contenedorInferior__derecha">
-              <a href="#">
-                  <button class="footerInf__contenedorInferior__derecha__boton">
-                      <i class=" footerInf__contenedorInferior__derecha__boton--i fa-solid fa-chevron-up"></i>
-                  </button>
-              </a>
-          </div>
-      </div>
-    </footer>
+  <footer class="footerInf" id="footer2">
+    <div class="footerInf__contenedorInferior contenedor-max centrar-bloque">
+        <div class="footerInf__contenedorInferior__izquierda">
+            <p class="mt-3 mb-3">© 2022 Traveload by Escorp group | All Rights Reserved | Powered by <span>Shom</span></p>
+        </div>
+        <div class="footerInf__contenedorInferior__derecha">
+            <a href="#">
+                <button class="footerInf__contenedorInferior__derecha__boton">
+                    <i class=" footerInf__contenedorInferior__derecha__boton--i fa-solid fa-chevron-up"></i>
+                </button>
+            </a>
+        </div>
+    </div>
+  </footer>
 
   <!-- Script y librerias -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
